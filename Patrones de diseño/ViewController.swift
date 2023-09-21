@@ -9,10 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var vista: CardUIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
         testFactoryMethod()
     }
 
