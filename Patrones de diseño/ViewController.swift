@@ -15,12 +15,5 @@ class ViewController: UIViewController {
         
         testFactoryMethod()
     }
-
-
-    func testFactoryMethod() {
-        var payment: Payment
-        payment = PaymentFactory.buildPayment(typePayment: .google)
-        payment.hacerPago()
-    }
 }
 
