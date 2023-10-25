@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E5CE3142ABC084200425AFD /* FactoryMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CE3132ABC084200425AFD /* FactoryMethodViewController.swift */; };
 		9EC710552AA7FFFB00983DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710542AA7FFFB00983DE7 /* AppDelegate.swift */; };
 		9EC710572AA7FFFB00983DE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710562AA7FFFB00983DE7 /* SceneDelegate.swift */; };
 		9EC710592AA7FFFB00983DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710582AA7FFFB00983DE7 /* ViewController.swift */; };
@@ -19,9 +20,17 @@
 		9EC710732AA816B600983DE7 /* TypePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710722AA816B600983DE7 /* TypePayment.swift */; };
 		9EC710752AA8175600983DE7 /* PaymentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710742AA8175600983DE7 /* PaymentFactory.swift */; };
 		9EC710772AA81AFD00983DE7 /* Nota Factory Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710762AA81AFD00983DE7 /* Nota Factory Method.swift */; };
+		9ECB06E02ABC0EF2000BA354 /* CreationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB06DF2ABC0EF2000BA354 /* CreationalViewController.swift */; };
+		9ECB06E22ABC0F0D000BA354 /* Creational.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB06E12ABC0F0D000BA354 /* Creational.storyboard */; };
+		9ECB06E52ABC0FC9000BA354 /* FactoryMethod.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB06E42ABC0FC9000BA354 /* FactoryMethod.storyboard */; };
+		9ECB06E82ABC1459000BA354 /* CardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB06E72ABC1459000BA354 /* CardUIView.swift */; };
+		9ECB06EB2ABCDA4C000BA354 /* CeldaCreacionalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB06EA2ABCDA4C000BA354 /* CeldaCreacionalCollectionViewCell.swift */; };
+		9ECB06EE2ABCED0C000BA354 /* ModelCreacional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB06ED2ABCED0C000BA354 /* ModelCreacional.swift */; };
+		9ECB06F12ABCEEC9000BA354 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB06F02ABCEEC9000BA354 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E5CE3132ABC084200425AFD /* FactoryMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodViewController.swift; sourceTree = "<group>"; };
 		9EC710512AA7FFFB00983DE7 /* Patrones de diseño.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patrones de diseño.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC710542AA7FFFB00983DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC710562AA7FFFB00983DE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,13 @@
 		9EC710722AA816B600983DE7 /* TypePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePayment.swift; sourceTree = "<group>"; };
 		9EC710742AA8175600983DE7 /* PaymentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFactory.swift; sourceTree = "<group>"; };
 		9EC710762AA81AFD00983DE7 /* Nota Factory Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nota Factory Method.swift"; sourceTree = "<group>"; };
+		9ECB06DF2ABC0EF2000BA354 /* CreationalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationalViewController.swift; sourceTree = "<group>"; };
+		9ECB06E12ABC0F0D000BA354 /* Creational.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Creational.storyboard; sourceTree = "<group>"; };
+		9ECB06E42ABC0FC9000BA354 /* FactoryMethod.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FactoryMethod.storyboard; sourceTree = "<group>"; };
+		9ECB06E72ABC1459000BA354 /* CardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUIView.swift; sourceTree = "<group>"; };
+		9ECB06EA2ABCDA4C000BA354 /* CeldaCreacionalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCreacionalCollectionViewCell.swift; sourceTree = "<group>"; };
+		9ECB06ED2ABCED0C000BA354 /* ModelCreacional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCreacional.swift; sourceTree = "<group>"; };
+		9ECB06F02ABCEEC9000BA354 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +65,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E5CE30E2ABC07D100425AFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E5CE3102ABC07FC00425AFD /* Creational */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E5CE30F2ABC07E800425AFD /* View Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				9E5CE3132ABC084200425AFD /* FactoryMethodViewController.swift */,
+				9ECB06E42ABC0FC9000BA354 /* FactoryMethod.storyboard */,
+			);
+			path = "View Factory Method";
+			sourceTree = "<group>";
+		};
+		9E5CE3102ABC07FC00425AFD /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				9ECB06E32ABC0F3E000BA354 /* Views */,
+				9ECB06DF2ABC0EF2000BA354 /* CreationalViewController.swift */,
+				9ECB06EA2ABCDA4C000BA354 /* CeldaCreacionalCollectionViewCell.swift */,
+				9ECB06E12ABC0F0D000BA354 /* Creational.storyboard */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
 		9EC710482AA7FFFB00983DE7 = {
 			isa = PBXGroup;
 			children = (
@@ -69,8 +113,12 @@
 			isa = PBXGroup;
 			children = (
 				9EC710682AA8150E00983DE7 /* Creational */,
+				9ECB06E62ABC1433000BA354 /* Helpers */,
+				9E5CE30E2ABC07D100425AFD /* View */,
+				9ECB06EC2ABCED00000BA354 /* Model */,
 				9EC710542AA7FFFB00983DE7 /* AppDelegate.swift */,
 				9EC710562AA7FFFB00983DE7 /* SceneDelegate.swift */,
+				9ECB06EF2ABCEEBC000BA354 /* ViewModel */,
 				9EC710582AA7FFFB00983DE7 /* ViewController.swift */,
 				9EC7105A2AA7FFFB00983DE7 /* Main.storyboard */,
 				9EC7105D2AA7FFFD00983DE7 /* Assets.xcassets */,
@@ -123,6 +171,38 @@
 				9EC710742AA8175600983DE7 /* PaymentFactory.swift */,
 			);
 			path = Creator;
+			sourceTree = "<group>";
+		};
+		9ECB06E32ABC0F3E000BA354 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E5CE30F2ABC07E800425AFD /* View Factory Method */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9ECB06E62ABC1433000BA354 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9ECB06E72ABC1459000BA354 /* CardUIView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9ECB06EC2ABCED00000BA354 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9ECB06ED2ABCED0C000BA354 /* ModelCreacional.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9ECB06EF2ABCEEBC000BA354 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9ECB06F02ABCEEC9000BA354 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +266,8 @@
 				9EC710612AA7FFFD00983DE7 /* LaunchScreen.storyboard in Resources */,
 				9EC7105E2AA7FFFD00983DE7 /* Assets.xcassets in Resources */,
 				9EC7105C2AA7FFFB00983DE7 /* Main.storyboard in Resources */,
+				9ECB06E52ABC0FC9000BA354 /* FactoryMethod.storyboard in Resources */,
+				9ECB06E22ABC0F0D000BA354 /* Creational.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,9 +280,15 @@
 			files = (
 				9EC710592AA7FFFB00983DE7 /* ViewController.swift in Sources */,
 				9EC710552AA7FFFB00983DE7 /* AppDelegate.swift in Sources */,
+				9ECB06EB2ABCDA4C000BA354 /* CeldaCreacionalCollectionViewCell.swift in Sources */,
+				9ECB06E82ABC1459000BA354 /* CardUIView.swift in Sources */,
 				9EC710732AA816B600983DE7 /* TypePayment.swift in Sources */,
 				9EC7106F2AA8163B00983DE7 /* CardPayment.swift in Sources */,
+				9ECB06E02ABC0EF2000BA354 /* CreationalViewController.swift in Sources */,
+				9E5CE3142ABC084200425AFD /* FactoryMethodViewController.swift in Sources */,
 				9EC710772AA81AFD00983DE7 /* Nota Factory Method.swift in Sources */,
+				9ECB06EE2ABCED0C000BA354 /* ModelCreacional.swift in Sources */,
+				9ECB06F12ABCEEC9000BA354 /* ViewModel.swift in Sources */,
 				9EC7106D2AA8160100983DE7 /* GooglePayment.swift in Sources */,
 				9EC710752AA8175600983DE7 /* PaymentFactory.swift in Sources */,
 				9EC7106B2AA815CD00983DE7 /* Payment.swift in Sources */,
