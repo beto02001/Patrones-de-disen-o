@@ -10,12 +10,14 @@ import UIKit
 class CardUIView: UIView {
     
     let gradientsColors = [
-        [UIColor(named: "Azul")?.cgColor, UIColor(named: "Verde")?.cgColor],
+        [UIColor(named: "Amarillo")?.cgColor, UIColor(named: "Azul")?.cgColor],
         [UIColor(named: "Rojo")?.cgColor, UIColor(named: "Amarillo")?.cgColor],
-        [UIColor(named: "Lila")?.cgColor, UIColor(named: "Rojo")?.cgColor],
-        [UIColor(named: "Verde")?.cgColor, UIColor(named: "Amarillo")?.cgColor],
+        [UIColor(named: "Verde")?.cgColor, UIColor(named: "Rojo")?.cgColor],
+        [UIColor(named: "Lila")?.cgColor, UIColor(named: "Amarillo")?.cgColor],
         [UIColor(named: "Lila")?.cgColor, UIColor(named: "Azul")?.cgColor]
     ]
+    
+    let colors = [UIColor(named: "Amarillo"), UIColor(named: "Azul"), UIColor(named: "Rojo"), UIColor(named: "Verde"), UIColor(named: "Lila")]
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -45,17 +47,7 @@ class CardUIView: UIView {
         self.layer.mask = maskLayer
     }
     
-    func degradado(index: Int) {
-        // Crear una capa de degradado
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = layer.visibleRect
-        // Definir los colores del degradado
-        gradientLayer.colors = gradientsColors[index % gradientsColors.count]
-        // Puedes ajustar la dirección del degradado configurando startPoint y endPoint
-        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0) // Esquina superior izquierda
-        gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)   // Esquina inferior derecha
-        
-        // Agregar la capa de degradado como subcapa
-        layer.insertSublayer(gradientLayer, at: 0)
+    func setColorCard(index: Int) {
+        self.backgroundColor = self.colors[index % self.colors.count]
     }
 }

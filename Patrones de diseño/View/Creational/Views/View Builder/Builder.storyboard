@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VCH-m5-EiM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JLm-Rb-cEF">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -9,16 +9,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--titulo ddd-->
+        <!--Builder-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="FactoryMethodViewController" title="titulo ddd" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="FactoryMethodViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BuilderViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="BuilderViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Factory Method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjs-eR-MsA">
-                                <rect key="frame" x="61.666666666666657" y="402" width="270" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Builder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfY-sK-tz3">
+                                <rect key="frame" x="136.66666666666666" y="402" width="119.99999999999997" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -27,33 +27,33 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vjs-eR-MsA" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="qTV-Ld-M7K"/>
-                            <constraint firstItem="vjs-eR-MsA" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="tb6-ye-WY2"/>
+                            <constraint firstItem="sfY-sK-tz3" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="XMg-ZI-E99"/>
+                            <constraint firstItem="sfY-sK-tz3" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="tPP-g8-ZfI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Nombre metofo" prompt="Creacional" id="x9o-ER-1aI"/>
+                    <navigationItem key="navigationItem" title="Builder" prompt="Creacional" id="w9K-qo-D7M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2837.4045801526718" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="863.35877862595419" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="kMa-P4-tOr">
+        <scene sceneID="1It-vE-ajW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VCH-m5-EiM" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JLm-Rb-cEF" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TK2-Hb-1aC">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WPb-eX-lvd">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="Ra0-l9-Huv"/>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="KnJ-uf-gKz"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tLd-sN-U3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i4w-wb-J1I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1910.6870229007632" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="-63.358778625954194" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>

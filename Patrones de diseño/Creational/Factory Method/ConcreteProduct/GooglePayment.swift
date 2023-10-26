@@ -8,12 +8,9 @@
 import Foundation
 
 class GooglePayment: Payment {
-    
+
     func hacerPago() {
         print("Haciendo el pago con googlepayment")
     }
-    
-    
-    
 }
 

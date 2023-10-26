@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        testFactoryMethod()
+        vista.setColorCard(index: 1)
     }
 }
 
