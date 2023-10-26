@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hs6-ba-aKq">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -10,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Creacional-->
+        <!--Creational View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="Creational" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="CreationalViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,13 +20,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creacional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6l-VV-TZ1">
-                                <rect key="frame" x="15" y="70" width="156" height="41"/>
+                                <rect key="frame" x="15" y="114" width="156" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colección de patrones de diseño creacionales" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hh-FF-p9p">
-                                <rect key="frame" x="30" y="126.00000000000001" width="315" height="40.666666666666671"/>
+                                <rect key="frame" x="30" y="170" width="315" height="40.666666666666657"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40.666666666666657" id="SWb-A8-TlP"/>
                                 </constraints>
@@ -34,7 +35,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7Vc-fv-ZY0">
-                                <rect key="frame" x="20" y="181.66666666666669" width="335" height="527.33333333333326"/>
+                                <rect key="frame" x="10" y="225.66666666666666" width="355" height="483.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LPn-GL-4R8">
                                     <size key="itemSize" width="156" height="240"/>
@@ -69,7 +70,7 @@
                                                     </constraints>
                                                 </view>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r57-7I-9GL">
-                                                    <rect key="frame" x="0.0" y="-0.6666666666666714" width="90" height="95.666666666666671"/>
+                                                    <rect key="frame" x="0.0" y="-0.6666666666666714" width="90" height="95.333333333333343"/>
                                                     <color key="backgroundColor" red="0.96926011436993309" green="0.95232738617582957" blue="0.92800588401626127" alpha="0.33925914115646261" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="90" id="NJO-o5-zw5"/>
@@ -101,10 +102,10 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7Vc-fv-ZY0" secondAttribute="trailing" constant="20" id="AQh-Fl-qBJ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7Vc-fv-ZY0" secondAttribute="trailing" constant="10" id="AQh-Fl-qBJ"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8hh-FF-p9p" secondAttribute="trailing" constant="30" id="HG2-bJ-Q2b"/>
                             <constraint firstItem="8hh-FF-p9p" firstAttribute="top" secondItem="b6l-VV-TZ1" secondAttribute="bottom" constant="15" id="Nlb-5l-JTV"/>
-                            <constraint firstItem="7Vc-fv-ZY0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Olq-LW-jEH"/>
+                            <constraint firstItem="7Vc-fv-ZY0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="Olq-LW-jEH"/>
                             <constraint firstItem="8hh-FF-p9p" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="SvO-oe-f5V"/>
                             <constraint firstItem="b6l-VV-TZ1" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="bJi-hH-CBJ"/>
                             <constraint firstItem="b6l-VV-TZ1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="luR-rT-o6Z"/>
@@ -112,7 +113,7 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="7Vc-fv-ZY0" secondAttribute="bottom" constant="20" id="xvv-Sb-nJa"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Creacional" image="gearshape" catalog="system" id="6kn-ft-jTh"/>
+                    <navigationItem key="navigationItem" id="nTW-Ed-GAi"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="7Vc-fv-ZY0" id="6Mv-xC-xkb"/>
@@ -120,7 +121,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-178.46153846153845" y="-22.037914691943126"/>
+            <point key="canvasLocation" x="762.39999999999998" y="-22.167487684729064"/>
+        </scene>
+        <!--Creacional-->
+        <scene sceneID="kh0-cT-5fl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hs6-ba-aKq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Creacional" image="gearshape" catalog="system" id="6kn-ft-jTh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HKq-Rd-cT8">
+                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="1dg-Wv-SIt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JUl-8M-bHv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="-22.167487684729064"/>
         </scene>
     </scenes>
     <resources>
@@ -130,10 +150,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray3Color">
-            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGroupedBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

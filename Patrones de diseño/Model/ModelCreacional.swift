@@ -34,7 +34,9 @@ struct PatronesCreacionales {
 
 
 let patronesCreacionales = [
-    
     PatronesCreacionales(nombre: "Factory Method", info: "Permite a la subclase decidir qué tipo de instancia concreta necesita. \nSe utiliza para resolver el problema de cuando necesitamos crear una instancia de un objeto que no sabemos qué tipo va a ser", imagen: UIImage(named: "") ?? UIImage()),
-    
+    PatronesCreacionales(nombre: "Abstract Factory", info: "", imagen: UIImage.strokedCheckmark),
+    PatronesCreacionales(nombre: "Builder", info: "", imagen: UIImage.strokedCheckmark),
+    PatronesCreacionales(nombre: "Prototype", info: "", imagen: UIImage.strokedCheckmark),
+    PatronesCreacionales(nombre: "Singleton", info: "", imagen: UIImage.strokedCheckmark),
 ]
