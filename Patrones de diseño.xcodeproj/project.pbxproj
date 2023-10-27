@@ -83,45 +83,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9E02591A2AE99646004240E8 /* View Abstract Method */ = {
+		9E02591A2AE99646004240E8 /* Abstract Method */ = {
 			isa = PBXGroup;
 			children = (
 				9E02591B2AE9966C004240E8 /* AbstractMethodViewController.swift */,
 				9E02591D2AE99BBC004240E8 /* AbstractMethod.storyboard */,
 			);
-			path = "View Abstract Method";
+			path = "Abstract Method";
 			sourceTree = "<group>";
 		};
-		9E02591F2AE99C75004240E8 /* View Builder */ = {
+		9E02591F2AE99C75004240E8 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
 				9E0259202AE99C96004240E8 /* BuilderViewController.swift */,
 				9E0259222AE99CA1004240E8 /* Builder.storyboard */,
 			);
-			path = "View Builder";
+			path = Builder;
 			sourceTree = "<group>";
 		};
-		9E5CE30E2ABC07D100425AFD /* View */ = {
+		9E5CE30E2ABC07D100425AFD /* Patrones */ = {
 			isa = PBXGroup;
 			children = (
+				9E6351F12AEB4C220060BED4 /* Estructurales */,
 				9E5CE3102ABC07FC00425AFD /* Creational */,
 			);
-			path = View;
+			path = Patrones;
 			sourceTree = "<group>";
 		};
-		9E5CE30F2ABC07E800425AFD /* View Factory Method */ = {
+		9E5CE30F2ABC07E800425AFD /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
 				9E5CE3132ABC084200425AFD /* FactoryMethodViewController.swift */,
 				9ECB06E42ABC0FC9000BA354 /* FactoryMethod.storyboard */,
 			);
-			path = "View Factory Method";
+			path = "Factory Method";
 			sourceTree = "<group>";
 		};
 		9E5CE3102ABC07FC00425AFD /* Creational */ = {
 			isa = PBXGroup;
 			children = (
 				9ECB06E32ABC0F3E000BA354 /* Views */,
+				9E0259182AE98A89004240E8 /* PatternDesingCreational.swift */,
 				9ECB06DF2ABC0EF2000BA354 /* CreationalViewController.swift */,
 				9ECB06EA2ABCDA4C000BA354 /* CeldaCreacionalCollectionViewCell.swift */,
 				9ECB06E12ABC0F0D000BA354 /* Creational.storyboard */,
@@ -129,22 +131,29 @@
 			path = Creational;
 			sourceTree = "<group>";
 		};
-		9EB512942AE9D385000D9221 /* View Prototype */ = {
+		9E6351F12AEB4C220060BED4 /* Estructurales */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Estructurales;
+			sourceTree = "<group>";
+		};
+		9EB512942AE9D385000D9221 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
 				9EB512952AE9D3BD000D9221 /* PrototypeViewController.swift */,
 				9EB512972AE9D3C9000D9221 /* Prototype.storyboard */,
 			);
-			path = "View Prototype";
+			path = Prototype;
 			sourceTree = "<group>";
 		};
-		9EB512992AE9D50C000D9221 /* View Singleton */ = {
+		9EB512992AE9D50C000D9221 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
 				9EB5129A2AE9D51F000D9221 /* SingletonViewController.swift */,
 				9EB5129C2AE9D529000D9221 /* Singleton.storyboard */,
 			);
-			path = "View Singleton";
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 		9EC710482AA7FFFB00983DE7 = {
@@ -167,7 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				9EC710682AA8150E00983DE7 /* Creational */,
-				9E5CE30E2ABC07D100425AFD /* View */,
+				9E5CE30E2ABC07D100425AFD /* Patrones */,
 				9ECB06EC2ABCED00000BA354 /* Model */,
 				9EC710542AA7FFFB00983DE7 /* AppDelegate.swift */,
 				9EC710562AA7FFFB00983DE7 /* SceneDelegate.swift */,
@@ -230,12 +239,11 @@
 		9ECB06E32ABC0F3E000BA354 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9EB512992AE9D50C000D9221 /* View Singleton */,
-				9EB512942AE9D385000D9221 /* View Prototype */,
-				9E02591F2AE99C75004240E8 /* View Builder */,
-				9E02591A2AE99646004240E8 /* View Abstract Method */,
-				9E5CE30F2ABC07E800425AFD /* View Factory Method */,
-				9E0259182AE98A89004240E8 /* PatternDesingCreational.swift */,
+				9EB512992AE9D50C000D9221 /* Singleton */,
+				9EB512942AE9D385000D9221 /* Prototype */,
+				9E02591F2AE99C75004240E8 /* Builder */,
+				9E02591A2AE99646004240E8 /* Abstract Method */,
+				9E5CE30F2ABC07E800425AFD /* Factory Method */,
 			);
 			path = Views;
 			sourceTree = "<group>";
