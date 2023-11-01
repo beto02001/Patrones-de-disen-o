@@ -9,39 +9,39 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Singleton-->
+        <!--Proxy-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="SingletonViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SingletonViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProxyViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ProxyViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Singleton" prompt="creacional" id="KGY-yH-5wo"/>
+                    <navigationItem key="navigationItem" title="Proxy" prompt="Estructural" id="ybK-en-VfG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846.56488549618314" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="hnA-fZ-qBX">
+        <scene sceneID="eLT-h4-mqx">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lsp-4q-uLZ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nTv-Mh-tnJ" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="78r-Zc-AgQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6CU-ox-doo">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="6gS-aM-0Vd"/>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="jat-VC-O3A"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eV7-23-aVe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xDQ-pM-G3r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-80.152671755725194" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>
