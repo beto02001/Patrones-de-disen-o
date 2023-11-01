@@ -3,4 +3,69 @@
    uuid = "6A63B15A-EE20-485B-BCC2-59E6E8F03E48"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4284F48A-49FC-4861-94F8-F3B317F31CA8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Patrones de disen&#x303;o/Patrones/Creational/CreationalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4284F48A-49FC-4861-94F8-F3B317F31CA8 - 6cf81631c1233d83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Patrones_de_dise&#xf1;o.CreationalViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Patrones de disen&#x303;o"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Documents/Patrones%20de%20disen%CC%83o/Patrones%20de%20disen%CC%83o/Patrones/Creational/CreationalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1180">
+               </Location>
+               <Location
+                  uuid = "4284F48A-49FC-4861-94F8-F3B317F31CA8 - 6cf81631c1233de2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Patrones_de_dise&#xf1;o.CreationalViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Patrones de disen&#x303;o"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Documents/Patrones%20de%20disen%CC%83o/Patrones%20de%20disen%CC%83o/Patrones/Creational/CreationalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1180">
+               </Location>
+               <Location
+                  uuid = "4284F48A-49FC-4861-94F8-F3B317F31CA8 - 6cf81631c1233de2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Patrones_de_dise&#xf1;o.CreationalViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Patrones de disen&#x303;o"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luishumberto/Documents/Patrones%20de%20disen%CC%83o/Patrones%20de%20disen%CC%83o/Patrones/Creational/CreationalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

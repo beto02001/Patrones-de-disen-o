@@ -7,31 +7,15 @@
 
 import Foundation
 
-
 class ViewModel {
-    enum TipoPatron {
-        case creacional
-        case estructural
-        case comportamiento
-    }
     
     var arrayCreacional: Creacional
+    var arrayEstructutal: Estructural
     
     init() {
         self.arrayCreacional = Creacional()
+        self.arrayEstructutal = Estructural()
     }
-    
     
     static let shared = ViewModel()
-    
-    func countPatrones(tipo: TipoPatron) -> Int {
-        switch tipo {
-        case .creacional:
-            return arrayCreacional.patrones.count
-        case .estructural:
-            return 1
-        case .comportamiento:
-            return 1
-        }
-    }
 }
