@@ -22,19 +22,21 @@ struct Creacional {
 struct PatronesCreacionales {
     
     var nombre: String
-    var info: String
-    var imagen: UIImage
+    var tipo: TipoPatron
+    var caseName: AllPatterType
     
-    init(nombre: String, info: String, imagen: UIImage) {
+    init(nombre: String, info: TipoPatron, caseName: AllPatterType) {
         self.nombre = nombre
-        self.info = info
-        self.imagen = imagen
+        self.tipo = info
+        self.caseName = caseName
     }
 }
 
 
 let patronesCreacionales = [
-    
-    PatronesCreacionales(nombre: "Factory Method", info: "Permite a la subclase decidir qué tipo de instancia concreta necesita. \nSe utiliza para resolver el problema de cuando necesitamos crear una instancia de un objeto que no sabemos qué tipo va a ser", imagen: UIImage(named: "") ?? UIImage()),
-    
+    PatronesCreacionales(nombre: "Factory Method", info: .creacional, caseName: .FactoyMethod),
+    PatronesCreacionales(nombre: "Abstract Factory", info: .creacional, caseName: .AbstractMethod),
+    PatronesCreacionales(nombre: "Builder", info: .creacional, caseName: .Builder),
+    PatronesCreacionales(nombre: "Prototype", info: .creacional, caseName: .Prototype),
+    PatronesCreacionales(nombre: "Singleton", info: .creacional, caseName: .Singleton),
 ]
