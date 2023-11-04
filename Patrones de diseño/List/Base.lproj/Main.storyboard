@@ -4,37 +4,10 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D20-hR-QLu" customClass="CardUIView" customModule="Patrones_de_disen_o" customModuleProvider="target">
-                                <rect key="frame" x="76" y="269" width="240" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemMintColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="GKo-PJ-aZf"/>
-                    <connections>
-                        <outlet property="vista" destination="D20-hR-QLu" id="gp5-CM-vrO"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1085" y="-2"/>
-        </scene>
         <!--Creational-->
         <scene sceneID="gSu-Yd-tDG">
             <objects>
@@ -46,7 +19,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cru-BF-sKb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="637" y="-719"/>
+            <point key="canvasLocation" x="692" y="-293"/>
         </scene>
         <!--Estructural-->
         <scene sceneID="qPX-un-X0M">
@@ -57,7 +30,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nAK-gB-oQt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="746" y="-594"/>
+            <point key="canvasLocation" x="696" y="-2"/>
+        </scene>
+        <!--Comportamiento-->
+        <scene sceneID="zle-CB-ynW">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Comportamiento" storyboardName="Comportamiento" id="3k9-JU-pPc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="N8i-y5-VPH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EHz-Nf-2xl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="267"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Gdh-tg-LEE">
@@ -71,9 +54,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="qXa-Br-lNg"/>
                         <segue destination="wc1-eH-Z0v" kind="relationship" relationship="viewControllers" id="qOx-sB-wbk"/>
                         <segue destination="aQg-Xc-7bs" kind="relationship" relationship="viewControllers" id="57e-73-8Mm"/>
+                        <segue destination="3k9-JU-pPc" kind="relationship" relationship="viewControllers" id="dtQ-YJ-etp"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m6q-3s-Ui6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -82,15 +65,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="homekit" catalog="system" width="128" height="104"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

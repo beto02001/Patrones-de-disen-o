@@ -13,10 +13,10 @@ enum SBID: String {
     case comportamiento = "Comportamiento"
 }
 
-enum TipoPatron {
-    case creacional
-    case estructural
-    case comportamiento
+enum TipoPatron: String {
+    case creacional = "Creacional"
+    case estructural = "Estructural"
+    case comportamiento = "De comportamiento"
 }
 
 enum AllPatterType: String {
@@ -37,4 +37,16 @@ enum AllPatterType: String {
     case Proxy = "Proxy"
     
     //MARK: Comportamiento
+    case ChainOfResponsability = "ChainOfResponsability"
+    case Command = "Command"
+    case Interpreter = "Interpreter"
+    case Iteractor = "Iteractor"
+    case Mediator = "Mediator"
+    case Memento = "Memento"
+    case Observer = "Observer"
+    case State = "State"
+    case Strategy = "Strategy"
+    case TemplateMethod = "TemplateMethod"
+    case Visitor = "Visitor"
+    
 }

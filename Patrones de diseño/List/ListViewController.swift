@@ -12,7 +12,7 @@ class ListViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var patrones: (creacionales: [PatronesCreacionales], estructurales: [PatronesEstructurales]) = ([], [])
+    var patrones: (creacionales: [PatronesCreacionales], estructurales: [PatronesEstructurales], comportamiento: [PatronesComportamiento]) = ([], [], [])
     var typePatron: TipoPatron = .creacional
     
     override func viewDidLoad() {
@@ -27,19 +27,14 @@ class ListViewController: UIViewController {
             case SBID.estructural.rawValue:
             patrones.estructurales = ViewModel.shared.arrayEstructutal.patrones
             typePatron = .estructural
+            case SBID.comportamiento.rawValue:
+            patrones.comportamiento = ViewModel.shared.arrayComportamiento.patrones
+            typePatron = .comportamiento
             default:
                 break
         }
-        print("Storyboard ID: \(storyboardID ?? "No Storyboard ID found")")
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(true, animated: animated)
-    }
-    
-    
-    
+
 }
 
 extension ListViewController: UICollectionViewDelegate, UICollectionViewDataSource {
@@ -50,9 +45,8 @@ extension ListViewController: UICollectionViewDelegate, UICollectionViewDataSour
         case .estructural:
             return patrones.estructurales.count
         case .comportamiento:
-            return 0
+            return patrones.comportamiento.count
         }
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -61,6 +55,8 @@ extension ListViewController: UICollectionViewDelegate, UICollectionViewDataSour
             cell.nombrePatron.text = patrones.creacionales[indexPath.row].nombre
         } else if !patrones.estructurales.isEmpty {
             cell.nombrePatron.text = patrones.estructurales[indexPath.row].nombre
+        } else if !patrones.comportamiento.isEmpty {
+            cell.nombrePatron.text = patrones.comportamiento[indexPath.row].nombre
         }
         cell.cardContainer.setColorCard(index: indexPath.row)
         cell.iconImage.layer.cornerRadius = 45
@@ -68,62 +64,24 @@ extension ListViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        var patter: AllPatterType
+        var title: String = ""
         switch typePatron {
-        case .creacional:
-            let patter = patrones.creacionales[indexPath.row].caseName
-            let storyboard = PatterAllCreationalFactory.buildStoryBoardPatter(patter: patter)
-            let identifierVC = PatterAllCreationalFactory.vcNamesCreational(patter: patter)
-            let vcProb = storyboard.instantiateViewController(withIdentifier: identifierVC)
-            navigationPatter(patter: patter, vc: vcProb)
-            
-        case .estructural:
-            let patter = patrones.estructurales[indexPath.row].caseName
-            let storyboard = PatterAllCreationalFactory.buildStoryBoardPatter(patter: patter)
-            let identifierVC = PatterAllCreationalFactory.vcNamesCreational(patter: patter)
-            let vcProb = storyboard.instantiateViewController(withIdentifier: identifierVC)
-            navigationPatter(patter: patter, vc: vcProb)
-        case .comportamiento:
-            return
+            case .creacional:
+                patter = patrones.creacionales[indexPath.row].caseName
+                title = patrones.creacionales[indexPath.row].nombre
+            case .estructural:
+                patter = patrones.estructurales[indexPath.row].caseName
+                title = patrones.estructurales[indexPath.row].nombre
+            case .comportamiento:
+                patter = patrones.comportamiento[indexPath.row].caseName
+                title = patrones.comportamiento[indexPath.row].nombre
         }
-        
-    }
-    
-    func navigationPatter(patter: AllPatterType, vc: UIViewController) {
-        
-        switch patter {
-        case .FactoyMethod:
-            pushViewControllerForPattern(vc: vc, FactoryMethodViewController.self)
-        case .AbstractMethod:
-            pushViewControllerForPattern(vc: vc, AbstractMethodViewController.self)
-        case .Builder:
-            pushViewControllerForPattern(vc: vc, BuilderViewController.self)
-        case .Prototype:
-            pushViewControllerForPattern(vc: vc, PrototypeViewController.self)
-        case .Singleton:
-            pushViewControllerForPattern(vc: vc, SingletonViewController.self)
-        
-        case .Adapter:
-            pushViewControllerForPattern(vc: vc, AdapterViewController.self)
-        case .Bridge:
-            pushViewControllerForPattern(vc: vc, BridgeViewController.self)
-        case .Composite:
-            pushViewControllerForPattern(vc: vc, CompositeViewController.self)
-        case .Decorator:
-            pushViewControllerForPattern(vc: vc, DecoratorViewController.self)
-        case .Facade:
-            pushViewControllerForPattern(vc: vc, FacadeViewController.self)
-        case .Flywight:
-            pushViewControllerForPattern(vc: vc, FlywightViewController.self)
-        case .Proxy:
-            pushViewControllerForPattern(vc: vc, ProxyViewController.self)
-        }
-    }
-    
-    func pushViewControllerForPattern<T: UIViewController>(vc: UIViewController, _ vcType: T.Type) {
-        if let destinationVC = vc as? T {
-            self.navigationController?.pushViewController(destinationVC, animated: true)
-        } else {
-            print("No se pudo crear la instancia del controlador de vista")
-        }
+        let storyboard = PatterAllCreationalFactory.buildStoryBoardPatter(patter: patter)
+        let identifierVC = PatterAllCreationalFactory.vcNamesCreation(patter: patter)
+        let vcProb = storyboard.instantiateViewController(withIdentifier: identifierVC)
+        vcProb.navigationItem.title = title
+        vcProb.navigationItem.prompt = typePatron.rawValue
+        CoordinatorPatter.shared.navigationPatter(patter: patter, vc: vcProb, fatherVC: self)
     }
 }
