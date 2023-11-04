@@ -12,6 +12,31 @@
 		9E02591E2AE99BBC004240E8 /* AbstractMethod.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E02591D2AE99BBC004240E8 /* AbstractMethod.storyboard */; };
 		9E0259212AE99C96004240E8 /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0259202AE99C96004240E8 /* BuilderViewController.swift */; };
 		9E0259232AE99CA1004240E8 /* Builder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0259222AE99CA1004240E8 /* Builder.storyboard */; };
+		9E36C6062AF5F4520056A4B2 /* Comportamiento.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C6052AF5F4520056A4B2 /* Comportamiento.storyboard */; };
+		9E36C6082AF5F6660056A4B2 /* ModelComportamiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6072AF5F6660056A4B2 /* ModelComportamiento.swift */; };
+		9E36C60C2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C60B2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift */; };
+		9E36C60E2AF5F8AA0056A4B2 /* ChainOfResponsability.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C60D2AF5F8AA0056A4B2 /* ChainOfResponsability.storyboard */; };
+		9E36C6112AF5F8BF0056A4B2 /* Command.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C6102AF5F8BF0056A4B2 /* Command.storyboard */; };
+		9E36C6132AF5F8C70056A4B2 /* CommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6122AF5F8C70056A4B2 /* CommandViewController.swift */; };
+		9E36C6162AF5F9290056A4B2 /* InterpreterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6152AF5F9290056A4B2 /* InterpreterViewController.swift */; };
+		9E36C6182AF5F92F0056A4B2 /* Interpreter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C6172AF5F92F0056A4B2 /* Interpreter.storyboard */; };
+		9E36C61B2AF5F9900056A4B2 /* Visitor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C61A2AF5F9900056A4B2 /* Visitor.storyboard */; };
+		9E36C61D2AF5F9970056A4B2 /* VisitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C61C2AF5F9970056A4B2 /* VisitorViewController.swift */; };
+		9E36C6202AF5F9B40056A4B2 /* TemplateMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C61F2AF5F9B40056A4B2 /* TemplateMethodViewController.swift */; };
+		9E36C6222AF5F9C70056A4B2 /* TemplateMethod.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C6212AF5F9C70056A4B2 /* TemplateMethod.storyboard */; };
+		9E36C6242AF5F9E20056A4B2 /* Strategy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C6232AF5F9E20056A4B2 /* Strategy.storyboard */; };
+		9E36C6272AF5F9FD0056A4B2 /* StrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6262AF5F9FD0056A4B2 /* StrategyViewController.swift */; };
+		9E36C62A2AF5FA110056A4B2 /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6292AF5FA110056A4B2 /* StateViewController.swift */; };
+		9E36C62C2AF5FA1B0056A4B2 /* State.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C62B2AF5FA1B0056A4B2 /* State.storyboard */; };
+		9E36C62F2AF5FA320056A4B2 /* Observer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C62E2AF5FA320056A4B2 /* Observer.storyboard */; };
+		9E36C6312AF5FA3D0056A4B2 /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6302AF5FA3D0056A4B2 /* ObserverViewController.swift */; };
+		9E36C6342AF5FA5B0056A4B2 /* MementoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6332AF5FA5B0056A4B2 /* MementoViewController.swift */; };
+		9E36C6362AF5FA610056A4B2 /* Memento.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C6352AF5FA610056A4B2 /* Memento.storyboard */; };
+		9E36C6392AF5FA990056A4B2 /* Mediator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C6382AF5FA990056A4B2 /* Mediator.storyboard */; };
+		9E36C63B2AF5FAA10056A4B2 /* MediatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C63A2AF5FAA10056A4B2 /* MediatorViewController.swift */; };
+		9E36C63E2AF5FBC90056A4B2 /* IteractorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C63D2AF5FBC90056A4B2 /* IteractorViewController.swift */; };
+		9E36C6402AF5FBD00056A4B2 /* Iteractor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C63F2AF5FBD00056A4B2 /* Iteractor.storyboard */; };
+		9E36C6422AF5FCAC0056A4B2 /* CoordinatorPatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6412AF5FCAC0056A4B2 /* CoordinatorPatter.swift */; };
 		9E5CE3142ABC084200425AFD /* FactoryMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CE3132ABC084200425AFD /* FactoryMethodViewController.swift */; };
 		9EB512962AE9D3BD000D9221 /* PrototypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB512952AE9D3BD000D9221 /* PrototypeViewController.swift */; };
 		9EB512982AE9D3C9000D9221 /* Prototype.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB512972AE9D3C9000D9221 /* Prototype.storyboard */; };
@@ -55,6 +80,31 @@
 		9E02591D2AE99BBC004240E8 /* AbstractMethod.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AbstractMethod.storyboard; sourceTree = "<group>"; };
 		9E0259202AE99C96004240E8 /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
 		9E0259222AE99CA1004240E8 /* Builder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Builder.storyboard; sourceTree = "<group>"; };
+		9E36C6052AF5F4520056A4B2 /* Comportamiento.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Comportamiento.storyboard; sourceTree = "<group>"; };
+		9E36C6072AF5F6660056A4B2 /* ModelComportamiento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelComportamiento.swift; sourceTree = "<group>"; };
+		9E36C60B2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsabilityViewController.swift; sourceTree = "<group>"; };
+		9E36C60D2AF5F8AA0056A4B2 /* ChainOfResponsability.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChainOfResponsability.storyboard; sourceTree = "<group>"; };
+		9E36C6102AF5F8BF0056A4B2 /* Command.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Command.storyboard; sourceTree = "<group>"; };
+		9E36C6122AF5F8C70056A4B2 /* CommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandViewController.swift; sourceTree = "<group>"; };
+		9E36C6152AF5F9290056A4B2 /* InterpreterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterViewController.swift; sourceTree = "<group>"; };
+		9E36C6172AF5F92F0056A4B2 /* Interpreter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interpreter.storyboard; sourceTree = "<group>"; };
+		9E36C61A2AF5F9900056A4B2 /* Visitor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Visitor.storyboard; sourceTree = "<group>"; };
+		9E36C61C2AF5F9970056A4B2 /* VisitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorViewController.swift; sourceTree = "<group>"; };
+		9E36C61F2AF5F9B40056A4B2 /* TemplateMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodViewController.swift; sourceTree = "<group>"; };
+		9E36C6212AF5F9C70056A4B2 /* TemplateMethod.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TemplateMethod.storyboard; sourceTree = "<group>"; };
+		9E36C6232AF5F9E20056A4B2 /* Strategy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Strategy.storyboard; sourceTree = "<group>"; };
+		9E36C6262AF5F9FD0056A4B2 /* StrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyViewController.swift; sourceTree = "<group>"; };
+		9E36C6292AF5FA110056A4B2 /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		9E36C62B2AF5FA1B0056A4B2 /* State.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = State.storyboard; sourceTree = "<group>"; };
+		9E36C62E2AF5FA320056A4B2 /* Observer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Observer.storyboard; sourceTree = "<group>"; };
+		9E36C6302AF5FA3D0056A4B2 /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
+		9E36C6332AF5FA5B0056A4B2 /* MementoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoViewController.swift; sourceTree = "<group>"; };
+		9E36C6352AF5FA610056A4B2 /* Memento.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memento.storyboard; sourceTree = "<group>"; };
+		9E36C6382AF5FA990056A4B2 /* Mediator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mediator.storyboard; sourceTree = "<group>"; };
+		9E36C63A2AF5FAA10056A4B2 /* MediatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorViewController.swift; sourceTree = "<group>"; };
+		9E36C63D2AF5FBC90056A4B2 /* IteractorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteractorViewController.swift; sourceTree = "<group>"; };
+		9E36C63F2AF5FBD00056A4B2 /* Iteractor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Iteractor.storyboard; sourceTree = "<group>"; };
+		9E36C6412AF5FCAC0056A4B2 /* CoordinatorPatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPatter.swift; sourceTree = "<group>"; };
 		9E5CE3132ABC084200425AFD /* FactoryMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodViewController.swift; sourceTree = "<group>"; };
 		9EB512952AE9D3BD000D9221 /* PrototypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeViewController.swift; sourceTree = "<group>"; };
 		9EB512972AE9D3C9000D9221 /* Prototype.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Prototype.storyboard; sourceTree = "<group>"; };
@@ -123,9 +173,136 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		9E36C6042AF5F43A0056A4B2 /* Comportamiento */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C6092AF5F7E30056A4B2 /* Views */,
+				9E36C6052AF5F4520056A4B2 /* Comportamiento.storyboard */,
+			);
+			path = Comportamiento;
+			sourceTree = "<group>";
+		};
+		9E36C6092AF5F7E30056A4B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C60A2AF5F7ED0056A4B2 /* Chain of Responsability */,
+				9E36C60F2AF5F8B90056A4B2 /* Command */,
+				9E36C6142AF5F9210056A4B2 /* Interpreter */,
+				9E36C63C2AF5FBB50056A4B2 /* Iteractor */,
+				9E36C6372AF5FA850056A4B2 /* Mediator */,
+				9E36C6322AF5FA540056A4B2 /* Memento */,
+				9E36C62D2AF5FA290056A4B2 /* Observer */,
+				9E36C6282AF5FA0B0056A4B2 /* State */,
+				9E36C6252AF5F9EC0056A4B2 /* Strategy */,
+				9E36C61E2AF5F9AD0056A4B2 /* TemplateMethod */,
+				9E36C6192AF5F9820056A4B2 /* Visitor */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E36C60A2AF5F7ED0056A4B2 /* Chain of Responsability */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C60B2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift */,
+				9E36C60D2AF5F8AA0056A4B2 /* ChainOfResponsability.storyboard */,
+			);
+			path = "Chain of Responsability";
+			sourceTree = "<group>";
+		};
+		9E36C60F2AF5F8B90056A4B2 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C6102AF5F8BF0056A4B2 /* Command.storyboard */,
+				9E36C6122AF5F8C70056A4B2 /* CommandViewController.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		9E36C6142AF5F9210056A4B2 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C6152AF5F9290056A4B2 /* InterpreterViewController.swift */,
+				9E36C6172AF5F92F0056A4B2 /* Interpreter.storyboard */,
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		9E36C6192AF5F9820056A4B2 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C61A2AF5F9900056A4B2 /* Visitor.storyboard */,
+				9E36C61C2AF5F9970056A4B2 /* VisitorViewController.swift */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		9E36C61E2AF5F9AD0056A4B2 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C61F2AF5F9B40056A4B2 /* TemplateMethodViewController.swift */,
+				9E36C6212AF5F9C70056A4B2 /* TemplateMethod.storyboard */,
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		9E36C6252AF5F9EC0056A4B2 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C6232AF5F9E20056A4B2 /* Strategy.storyboard */,
+				9E36C6262AF5F9FD0056A4B2 /* StrategyViewController.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		9E36C6282AF5FA0B0056A4B2 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C6292AF5FA110056A4B2 /* StateViewController.swift */,
+				9E36C62B2AF5FA1B0056A4B2 /* State.storyboard */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		9E36C62D2AF5FA290056A4B2 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C62E2AF5FA320056A4B2 /* Observer.storyboard */,
+				9E36C6302AF5FA3D0056A4B2 /* ObserverViewController.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		9E36C6322AF5FA540056A4B2 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C6332AF5FA5B0056A4B2 /* MementoViewController.swift */,
+				9E36C6352AF5FA610056A4B2 /* Memento.storyboard */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		9E36C6372AF5FA850056A4B2 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C6382AF5FA990056A4B2 /* Mediator.storyboard */,
+				9E36C63A2AF5FAA10056A4B2 /* MediatorViewController.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		9E36C63C2AF5FBB50056A4B2 /* Iteractor */ = {
+			isa = PBXGroup;
+			children = (
+				9E36C63D2AF5FBC90056A4B2 /* IteractorViewController.swift */,
+				9E36C63F2AF5FBD00056A4B2 /* Iteractor.storyboard */,
+			);
+			path = Iteractor;
+			sourceTree = "<group>";
+		};
 		9E5CE30E2ABC07D100425AFD /* Patrones */ = {
 			isa = PBXGroup;
 			children = (
+				9E36C6042AF5F43A0056A4B2 /* Comportamiento */,
 				9EBF18D42AF2A9F90014547E /* Estructural */,
 				9E5CE3102ABC07FC00425AFD /* Creational */,
 			);
@@ -316,6 +493,7 @@
 				9EBF18D72AF2ABA20014547E /* enumHelper.swift */,
 				9E0259182AE98A89004240E8 /* PatternDesingCreational.swift */,
 				9ECB06E72ABC1459000BA354 /* CardUIView.swift */,
+				9E36C6412AF5FCAC0056A4B2 /* CoordinatorPatter.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -325,6 +503,7 @@
 			children = (
 				9ECB06ED2ABCED0C000BA354 /* ModelCreacional.swift */,
 				9EBF18D22AF22F430014547E /* ModelEstructural.swift */,
+				9E36C6072AF5F6660056A4B2 /* ModelComportamiento.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -396,22 +575,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EBF18F22AF2E31A0014547E /* Decorator.storyboard in Resources */,
+				9E36C6362AF5FA610056A4B2 /* Memento.storyboard in Resources */,
 				9EC710612AA7FFFD00983DE7 /* LaunchScreen.storyboard in Resources */,
 				9EBF18EC2AF2E2540014547E /* Composite.storyboard in Resources */,
 				9EB512982AE9D3C9000D9221 /* Prototype.storyboard in Resources */,
 				9E02591E2AE99BBC004240E8 /* AbstractMethod.storyboard in Resources */,
+				9E36C6242AF5F9E20056A4B2 /* Strategy.storyboard in Resources */,
+				9E36C61B2AF5F9900056A4B2 /* Visitor.storyboard in Resources */,
 				9EBF18D62AF2AA2E0014547E /* Estructural.storyboard in Resources */,
 				9EBF18F42AF2E3280014547E /* Facade.storyboard in Resources */,
+				9E36C6062AF5F4520056A4B2 /* Comportamiento.storyboard in Resources */,
+				9E36C6402AF5FBD00056A4B2 /* Iteractor.storyboard in Resources */,
+				9E36C6392AF5FA990056A4B2 /* Mediator.storyboard in Resources */,
+				9E36C6112AF5F8BF0056A4B2 /* Command.storyboard in Resources */,
+				9E36C6222AF5F9C70056A4B2 /* TemplateMethod.storyboard in Resources */,
+				9E36C62C2AF5FA1B0056A4B2 /* State.storyboard in Resources */,
 				9EBF18FC2AF2E35E0014547E /* Proxy.storyboard in Resources */,
+				9E36C62F2AF5FA320056A4B2 /* Observer.storyboard in Resources */,
 				9EBF18E32AF2D04E0014547E /* Adapter.storyboard in Resources */,
 				9EBF18FA2AF2E34A0014547E /* Flywight.storyboard in Resources */,
 				9EBF18EA2AF2E1E30014547E /* Bridge.storyboard in Resources */,
 				9EC7105E2AA7FFFD00983DE7 /* Assets.xcassets in Resources */,
 				9EC7105C2AA7FFFB00983DE7 /* Main.storyboard in Resources */,
+				9E36C60E2AF5F8AA0056A4B2 /* ChainOfResponsability.storyboard in Resources */,
 				9ECB06E52ABC0FC9000BA354 /* FactoryMethod.storyboard in Resources */,
 				9E0259232AE99CA1004240E8 /* Builder.storyboard in Resources */,
 				9ECB06E22ABC0F0D000BA354 /* Creational.storyboard in Resources */,
 				9EB5129D2AE9D529000D9221 /* Singleton.storyboard in Resources */,
+				9E36C6182AF5F92F0056A4B2 /* Interpreter.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +615,7 @@
 			files = (
 				9EBF18D82AF2ABA20014547E /* enumHelper.swift in Sources */,
 				9EC710592AA7FFFB00983DE7 /* ViewController.swift in Sources */,
+				9E36C6422AF5FCAC0056A4B2 /* CoordinatorPatter.swift in Sources */,
 				9EC710552AA7FFFB00983DE7 /* AppDelegate.swift in Sources */,
 				9E0259192AE98A89004240E8 /* PatternDesingCreational.swift in Sources */,
 				9EBF18E52AF2D0720014547E /* AdapterViewController.swift in Sources */,
@@ -431,19 +623,31 @@
 				9EBF18D32AF22F430014547E /* ModelEstructural.swift in Sources */,
 				9EBF18E82AF2E1C10014547E /* BridgeViewController.swift in Sources */,
 				9E0259212AE99C96004240E8 /* BuilderViewController.swift in Sources */,
+				9E36C6342AF5FA5B0056A4B2 /* MementoViewController.swift in Sources */,
 				9ECB06E82ABC1459000BA354 /* CardUIView.swift in Sources */,
 				9EBF18FE2AF2E3650014547E /* ProxyViewController.swift in Sources */,
 				9EBF18F02AF2E3110014547E /* DecoratorViewController.swift in Sources */,
 				9EB5129B2AE9D51F000D9221 /* SingletonViewController.swift in Sources */,
+				9E36C6272AF5F9FD0056A4B2 /* StrategyViewController.swift in Sources */,
+				9E36C61D2AF5F9970056A4B2 /* VisitorViewController.swift in Sources */,
+				9E36C62A2AF5FA110056A4B2 /* StateViewController.swift in Sources */,
 				9EB512962AE9D3BD000D9221 /* PrototypeViewController.swift in Sources */,
+				9E36C6082AF5F6660056A4B2 /* ModelComportamiento.swift in Sources */,
 				9ECB06E02ABC0EF2000BA354 /* ListViewController.swift in Sources */,
 				9E5CE3142ABC084200425AFD /* FactoryMethodViewController.swift in Sources */,
+				9E36C6202AF5F9B40056A4B2 /* TemplateMethodViewController.swift in Sources */,
+				9E36C60C2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift in Sources */,
 				9ECB06EE2ABCED0C000BA354 /* ModelCreacional.swift in Sources */,
 				9ECB06F12ABCEEC9000BA354 /* ViewModel.swift in Sources */,
 				9EC710572AA7FFFB00983DE7 /* SceneDelegate.swift in Sources */,
+				9E36C63E2AF5FBC90056A4B2 /* IteractorViewController.swift in Sources */,
 				9EBF18EE2AF2E25D0014547E /* CompositeViewController.swift in Sources */,
 				9EBF18F62AF2E3310014547E /* FacadeViewController.swift in Sources */,
 				9EBF18F82AF2E3430014547E /* FlywightViewController.swift in Sources */,
+				9E36C63B2AF5FAA10056A4B2 /* MediatorViewController.swift in Sources */,
+				9E36C6162AF5F9290056A4B2 /* InterpreterViewController.swift in Sources */,
+				9E36C6132AF5F8C70056A4B2 /* CommandViewController.swift in Sources */,
+				9E36C6312AF5FA3D0056A4B2 /* ObserverViewController.swift in Sources */,
 				9E02591C2AE9966C004240E8 /* AbstractMethodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,10 +11,12 @@ class ViewModel {
     
     var arrayCreacional: Creacional
     var arrayEstructutal: Estructural
+    var arrayComportamiento: Comportamiento
     
     init() {
         self.arrayCreacional = Creacional()
         self.arrayEstructutal = Estructural()
+        self.arrayComportamiento = Comportamiento()
     }
     
     static let shared = ViewModel()

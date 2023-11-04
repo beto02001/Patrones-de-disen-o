@@ -31,7 +31,7 @@
                             <constraint firstItem="vjs-eR-MsA" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="tb6-ye-WY2"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Factory Method" prompt="Creacional" id="x9o-ER-1aI"/>
+                    <navigationItem key="navigationItem" title="Factory Method 2" prompt="Creacional 2" id="x9o-ER-1aI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
