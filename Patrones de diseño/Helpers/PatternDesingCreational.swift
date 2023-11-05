@@ -14,7 +14,7 @@ class PatterAllCreationalFactory {
         return UIStoryboard(name: patter.rawValue, bundle: nil)
     }
     
-    static func vcNamesCreational(patter: AllPatterType) -> String {
+    static func vcNamesCreation(patter: AllPatterType) -> String {
         return patter.rawValue + "ViewController"
     }
     

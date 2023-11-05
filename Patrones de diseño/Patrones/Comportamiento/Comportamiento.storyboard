@@ -14,18 +14,18 @@
         <!--List View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="Estructural" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ListViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Comportamiento" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ListViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estructural" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6l-VV-TZ1">
-                                <rect key="frame" x="15" y="104" width="157" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comportamiento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6l-VV-TZ1">
+                                <rect key="frame" x="15" y="104" width="247" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colección de patrones de diseño estructurales" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hh-FF-p9p">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colección de patrones de diseño de comportamiento" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hh-FF-p9p">
                                 <rect key="frame" x="30" y="160" width="315" height="40.666666666666657"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40.666666666666657" id="SWb-A8-TlP"/>
@@ -123,11 +123,11 @@
             </objects>
             <point key="canvasLocation" x="762.39999999999998" y="-22.167487684729064"/>
         </scene>
-        <!--Estructural-->
+        <!--Comportamiento-->
         <scene sceneID="kh0-cT-5fl">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hs6-ba-aKq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Estructural" image="pencil.slash" catalog="system" id="6kn-ft-jTh"/>
+                    <tabBarItem key="tabBarItem" title="Comportamiento" image="figure.wave" catalog="system" id="6kn-ft-jTh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HKq-Rd-cT8">
                         <rect key="frame" x="0.0" y="50" width="375" height="44"/>
@@ -144,8 +144,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="figure.wave" catalog="system" width="80" height="128"/>
         <image name="gear" catalog="system" width="128" height="122"/>
-        <image name="pencil.slash" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
