@@ -63,6 +63,8 @@ class CoordinatorPatter {
             pushViewControllerForPattern(vc: vc, TemplateMethodViewController.self, fathervc: fatherVC)
         case .Visitor:
             pushViewControllerForPattern(vc: vc, VisitorViewController.self, fathervc: fatherVC)
+        case .Delegate:
+            pushViewControllerForPattern(vc: vc, DelegateViewController.self, fathervc: fatherVC)
         }
     }
     

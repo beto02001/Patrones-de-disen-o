@@ -37,6 +37,7 @@ enum AllPatterType: String {
     case Proxy = "Proxy"
     
     //MARK: Comportamiento
+    case Delegate = "Delegate"
     case ChainOfResponsability = "ChainOfResponsability"
     case Command = "Command"
     case Interpreter = "Interpreter"
