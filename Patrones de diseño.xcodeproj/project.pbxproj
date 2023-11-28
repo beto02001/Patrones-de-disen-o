@@ -12,6 +12,8 @@
 		9E02591E2AE99BBC004240E8 /* AbstractMethod.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E02591D2AE99BBC004240E8 /* AbstractMethod.storyboard */; };
 		9E0259212AE99C96004240E8 /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0259202AE99C96004240E8 /* BuilderViewController.swift */; };
 		9E0259232AE99CA1004240E8 /* Builder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0259222AE99CA1004240E8 /* Builder.storyboard */; };
+		9E21F1E42AFC5A00001822C9 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E21F1E32AFC5A00001822C9 /* DelegateViewController.swift */; };
+		9E21F1E62AFC5A11001822C9 /* Delegate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E21F1E52AFC5A11001822C9 /* Delegate.storyboard */; };
 		9E36C6062AF5F4520056A4B2 /* Comportamiento.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E36C6052AF5F4520056A4B2 /* Comportamiento.storyboard */; };
 		9E36C6082AF5F6660056A4B2 /* ModelComportamiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C6072AF5F6660056A4B2 /* ModelComportamiento.swift */; };
 		9E36C60C2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36C60B2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift */; };
@@ -89,6 +91,8 @@
 		9E02591D2AE99BBC004240E8 /* AbstractMethod.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AbstractMethod.storyboard; sourceTree = "<group>"; };
 		9E0259202AE99C96004240E8 /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
 		9E0259222AE99CA1004240E8 /* Builder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Builder.storyboard; sourceTree = "<group>"; };
+		9E21F1E32AFC5A00001822C9 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		9E21F1E52AFC5A11001822C9 /* Delegate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Delegate.storyboard; sourceTree = "<group>"; };
 		9E36C6052AF5F4520056A4B2 /* Comportamiento.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Comportamiento.storyboard; sourceTree = "<group>"; };
 		9E36C6072AF5F6660056A4B2 /* ModelComportamiento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelComportamiento.swift; sourceTree = "<group>"; };
 		9E36C60B2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsabilityViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +195,15 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		9E21F1E22AFC59D7001822C9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9E21F1E32AFC5A00001822C9 /* DelegateViewController.swift */,
+				9E21F1E52AFC5A11001822C9 /* Delegate.storyboard */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		9E36C6042AF5F43A0056A4B2 /* Comportamiento */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +216,7 @@
 		9E36C6092AF5F7E30056A4B2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9E21F1E22AFC59D7001822C9 /* Delegate */,
 				9E36C60A2AF5F7ED0056A4B2 /* Chain of Responsability */,
 				9E36C60F2AF5F8B90056A4B2 /* Command */,
 				9E36C6142AF5F9210056A4B2 /* Interpreter */,
@@ -636,6 +650,7 @@
 				9EBF18F22AF2E31A0014547E /* Decorator.storyboard in Resources */,
 				9E36C6362AF5FA610056A4B2 /* Memento.storyboard in Resources */,
 				9EC710612AA7FFFD00983DE7 /* LaunchScreen.storyboard in Resources */,
+				9E21F1E62AFC5A11001822C9 /* Delegate.storyboard in Resources */,
 				9EBF18EC2AF2E2540014547E /* Composite.storyboard in Resources */,
 				9EB512982AE9D3C9000D9221 /* Prototype.storyboard in Resources */,
 				9E02591E2AE99BBC004240E8 /* AbstractMethod.storyboard in Resources */,
@@ -695,6 +710,7 @@
 				9EB5129B2AE9D51F000D9221 /* SingletonViewController.swift in Sources */,
 				9E36C6272AF5F9FD0056A4B2 /* StrategyViewController.swift in Sources */,
 				9E36C61D2AF5F9970056A4B2 /* VisitorViewController.swift in Sources */,
+				9E21F1E42AFC5A00001822C9 /* DelegateViewController.swift in Sources */,
 				9E36C62A2AF5FA110056A4B2 /* StateViewController.swift in Sources */,
 				9EB512962AE9D3BD000D9221 /* PrototypeViewController.swift in Sources */,
 				9E36C6082AF5F6660056A4B2 /* ModelComportamiento.swift in Sources */,

@@ -33,7 +33,8 @@ struct PatronesComportamiento {
 
 let patronesComportamiento = [
     PatronesComportamiento(nombre: "Chain of Responsability", info: .comportamiento, caseName: .ChainOfResponsability),
-    PatronesComportamiento(nombre: AllPatterType.Command.rawValue, info: .comportamiento, caseName: .Command ),
+    PatronesComportamiento(nombre: AllPatterType.Delegate.rawValue, info: .comportamiento, caseName: .Delegate),
+    PatronesComportamiento(nombre: AllPatterType.Command.rawValue, info: .comportamiento, caseName: .Command),
     PatronesComportamiento(nombre: AllPatterType.Interpreter.rawValue, info: .comportamiento, caseName: .Interpreter),
     PatronesComportamiento(nombre: AllPatterType.Iteractor.rawValue, info: .comportamiento, caseName: .Iteractor),
     PatronesComportamiento(nombre: AllPatterType.Mediator.rawValue, info: .comportamiento, caseName: .Mediator),
