@@ -61,6 +61,15 @@
 		9EBF18FA2AF2E34A0014547E /* Flywight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBF18F92AF2E34A0014547E /* Flywight.storyboard */; };
 		9EBF18FC2AF2E35E0014547E /* Proxy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBF18FB2AF2E35E0014547E /* Proxy.storyboard */; };
 		9EBF18FE2AF2E3650014547E /* ProxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBF18FD2AF2E3650014547E /* ProxyViewController.swift */; };
+		9EC633F32AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633F22AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift */; };
+		9EC633F52AF98E6100F942E8 /* EjemploFactoryMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633F42AF98E6100F942E8 /* EjemploFactoryMethodViewController.swift */; };
+		9EC633F82AF9917B00F942E8 /* FactoryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633F72AF9917B00F942E8 /* FactoryProduct.swift */; };
+		9EC633FB2AF991A400F942E8 /* Goku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633FA2AF991A400F942E8 /* Goku.swift */; };
+		9EC633FD2AF991AB00F942E8 /* Gohan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633FC2AF991AB00F942E8 /* Gohan.swift */; };
+		9EC634002AF991F300F942E8 /* CreatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633FF2AF991F300F942E8 /* CreatorFactory.swift */; };
+		9EC634032AF9923F00F942E8 /* SelectEnemyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC634022AF9923F00F942E8 /* SelectEnemyFactory.swift */; };
+		9EC634052AF9925700F942E8 /* RandomEnemyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC634042AF9925700F942E8 /* RandomEnemyFactory.swift */; };
+		9EC634072AF992AA00F942E8 /* ImprementacionGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC634062AF992AA00F942E8 /* ImprementacionGame.swift */; };
 		9EC710552AA7FFFB00983DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710542AA7FFFB00983DE7 /* AppDelegate.swift */; };
 		9EC710572AA7FFFB00983DE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710562AA7FFFB00983DE7 /* SceneDelegate.swift */; };
 		9EC710592AA7FFFB00983DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC710582AA7FFFB00983DE7 /* ViewController.swift */; };
@@ -131,6 +140,15 @@
 		9EBF18F92AF2E34A0014547E /* Flywight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Flywight.storyboard; sourceTree = "<group>"; };
 		9EBF18FB2AF2E35E0014547E /* Proxy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Proxy.storyboard; sourceTree = "<group>"; };
 		9EBF18FD2AF2E3650014547E /* ProxyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyViewController.swift; sourceTree = "<group>"; };
+		9EC633F22AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCodeFactoryMethodViewController.swift; sourceTree = "<group>"; };
+		9EC633F42AF98E6100F942E8 /* EjemploFactoryMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploFactoryMethodViewController.swift; sourceTree = "<group>"; };
+		9EC633F72AF9917B00F942E8 /* FactoryProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProduct.swift; sourceTree = "<group>"; };
+		9EC633FA2AF991A400F942E8 /* Goku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goku.swift; sourceTree = "<group>"; };
+		9EC633FC2AF991AB00F942E8 /* Gohan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gohan.swift; sourceTree = "<group>"; };
+		9EC633FF2AF991F300F942E8 /* CreatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorFactory.swift; sourceTree = "<group>"; };
+		9EC634022AF9923F00F942E8 /* SelectEnemyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEnemyFactory.swift; sourceTree = "<group>"; };
+		9EC634042AF9925700F942E8 /* RandomEnemyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomEnemyFactory.swift; sourceTree = "<group>"; };
+		9EC634062AF992AA00F942E8 /* ImprementacionGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprementacionGame.swift; sourceTree = "<group>"; };
 		9EC710512AA7FFFB00983DE7 /* Patrones de diseño.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patrones de diseño.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC710542AA7FFFB00983DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC710562AA7FFFB00983DE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -326,8 +344,15 @@
 		9E5CE30F2ABC07E800425AFD /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
+				9EC634012AF9922C00F942E8 /* Concrete Creator */,
+				9EC633FE2AF991E600F942E8 /* Creator */,
+				9EC633F92AF9919000F942E8 /* Concrete Product */,
+				9EC633F62AF9916100F942E8 /* Product */,
+				9EC634062AF992AA00F942E8 /* ImprementacionGame.swift */,
 				9E5CE3132ABC084200425AFD /* FactoryMethodViewController.swift */,
 				9ECB06E42ABC0FC9000BA354 /* FactoryMethod.storyboard */,
+				9EC633F22AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift */,
+				9EC633F42AF98E6100F942E8 /* EjemploFactoryMethodViewController.swift */,
 			);
 			path = "Factory Method";
 			sourceTree = "<group>";
@@ -456,6 +481,40 @@
 			path = Composite;
 			sourceTree = "<group>";
 		};
+		9EC633F62AF9916100F942E8 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				9EC633F72AF9917B00F942E8 /* FactoryProduct.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		9EC633F92AF9919000F942E8 /* Concrete Product */ = {
+			isa = PBXGroup;
+			children = (
+				9EC633FA2AF991A400F942E8 /* Goku.swift */,
+				9EC633FC2AF991AB00F942E8 /* Gohan.swift */,
+			);
+			path = "Concrete Product";
+			sourceTree = "<group>";
+		};
+		9EC633FE2AF991E600F942E8 /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				9EC633FF2AF991F300F942E8 /* CreatorFactory.swift */,
+			);
+			path = Creator;
+			sourceTree = "<group>";
+		};
+		9EC634012AF9922C00F942E8 /* Concrete Creator */ = {
+			isa = PBXGroup;
+			children = (
+				9EC634022AF9923F00F942E8 /* SelectEnemyFactory.swift */,
+				9EC634042AF9925700F942E8 /* RandomEnemyFactory.swift */,
+			);
+			path = "Concrete Creator";
+			sourceTree = "<group>";
+		};
 		9EC710482AA7FFFB00983DE7 = {
 			isa = PBXGroup;
 			children = (
@@ -492,11 +551,11 @@
 		9ECB06E32ABC0F3E000BA354 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9EB512992AE9D50C000D9221 /* Singleton */,
-				9EB512942AE9D385000D9221 /* Prototype */,
-				9E02591F2AE99C75004240E8 /* Builder */,
 				9E02591A2AE99646004240E8 /* Abstract Method */,
+				9E02591F2AE99C75004240E8 /* Builder */,
 				9E5CE30F2ABC07E800425AFD /* Factory Method */,
+				9EB512942AE9D385000D9221 /* Prototype */,
+				9EB512992AE9D50C000D9221 /* Singleton */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -634,9 +693,15 @@
 				9EC710552AA7FFFB00983DE7 /* AppDelegate.swift in Sources */,
 				9E0259192AE98A89004240E8 /* PatternDesingCreational.swift in Sources */,
 				9EBF18E52AF2D0720014547E /* AdapterViewController.swift in Sources */,
+				9EC634052AF9925700F942E8 /* RandomEnemyFactory.swift in Sources */,
 				9ECB06EB2ABCDA4C000BA354 /* CeldaListCollectionViewCell.swift in Sources */,
+				9EC634072AF992AA00F942E8 /* ImprementacionGame.swift in Sources */,
+				9EC634032AF9923F00F942E8 /* SelectEnemyFactory.swift in Sources */,
+				9EC634002AF991F300F942E8 /* CreatorFactory.swift in Sources */,
 				9EBF18D32AF22F430014547E /* ModelEstructural.swift in Sources */,
 				9EBF18E82AF2E1C10014547E /* BridgeViewController.swift in Sources */,
+				9EC633FD2AF991AB00F942E8 /* Gohan.swift in Sources */,
+				9EC633F82AF9917B00F942E8 /* FactoryProduct.swift in Sources */,
 				9E0259212AE99C96004240E8 /* BuilderViewController.swift in Sources */,
 				9E36C6342AF5FA5B0056A4B2 /* MementoViewController.swift in Sources */,
 				9ECB06E82ABC1459000BA354 /* CardUIView.swift in Sources */,
@@ -655,14 +720,17 @@
 				9E36C60C2AF5F8A20056A4B2 /* ChainOfResponsabilityViewController.swift in Sources */,
 				9ECB06EE2ABCED0C000BA354 /* ModelCreacional.swift in Sources */,
 				9ECB06F12ABCEEC9000BA354 /* ViewModel.swift in Sources */,
+				9EC633FB2AF991A400F942E8 /* Goku.swift in Sources */,
 				9EC710572AA7FFFB00983DE7 /* SceneDelegate.swift in Sources */,
 				9E36C63E2AF5FBC90056A4B2 /* IteractorViewController.swift in Sources */,
 				9EBF18EE2AF2E25D0014547E /* CompositeViewController.swift in Sources */,
+				9EC633F32AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift in Sources */,
 				9EBF18F62AF2E3310014547E /* FacadeViewController.swift in Sources */,
 				9EBF18F82AF2E3430014547E /* FlywightViewController.swift in Sources */,
 				9E36C63B2AF5FAA10056A4B2 /* MediatorViewController.swift in Sources */,
 				9E36C6162AF5F9290056A4B2 /* InterpreterViewController.swift in Sources */,
 				9E36C6132AF5F8C70056A4B2 /* CommandViewController.swift in Sources */,
+				9EC633F52AF98E6100F942E8 /* EjemploFactoryMethodViewController.swift in Sources */,
 				9E36C6312AF5FA3D0056A4B2 /* ObserverViewController.swift in Sources */,
 				9E02591C2AE9966C004240E8 /* AbstractMethodViewController.swift in Sources */,
 			);
