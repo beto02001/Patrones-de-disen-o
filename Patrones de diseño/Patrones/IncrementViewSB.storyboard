@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a6W-Lt-pRV">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Increment View Controller-->
+        <scene sceneID="PrL-i5-j2z">
+            <objects>
+                <viewController storyboardIdentifier="IncrementViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="a6W-Lt-pRV" customClass="IncrementViewController" customModule="Patrones_de_disen_o" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p6y-PK-5AE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="47X-Hm-1HQ">
+                                <rect key="frame" x="56.666666666666657" y="60.666666666666657" width="280" height="226.99999999999997"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="VIF-Rp-Bz6"/>
+                                    <constraint firstAttribute="width" constant="280" id="ojS-le-qbZ"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="10" translatesAutoresizingMaskIntoConstraints="NO" id="8mn-hz-0Xz">
+                                <rect key="frame" x="0.0" y="309" width="393" height="509"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.artframe" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YSG-3f-L2I">
+                                        <rect key="frame" x="0.0" y="1.6666666666666572" width="393" height="506"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YSG-3f-L2I" firstAttribute="trailing" secondItem="h2X-eF-WeG" secondAttribute="trailing" id="7kr-OV-ba1"/>
+                                    <constraint firstItem="YSG-3f-L2I" firstAttribute="width" secondItem="kJA-aQ-OHp" secondAttribute="width" id="JkT-cG-wnQ"/>
+                                    <constraint firstItem="YSG-3f-L2I" firstAttribute="leading" secondItem="h2X-eF-WeG" secondAttribute="leading" id="bqu-Zq-tYy"/>
+                                    <constraint firstItem="YSG-3f-L2I" firstAttribute="top" secondItem="h2X-eF-WeG" secondAttribute="top" id="eVs-kS-Jou"/>
+                                    <constraint firstItem="YSG-3f-L2I" firstAttribute="height" secondItem="kJA-aQ-OHp" secondAttribute="height" id="ikY-xb-Air"/>
+                                    <constraint firstItem="YSG-3f-L2I" firstAttribute="bottom" secondItem="h2X-eF-WeG" secondAttribute="bottom" id="xCz-Xo-7yA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="h2X-eF-WeG"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="kJA-aQ-OHp"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7Nq-Rg-T0l"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8mn-hz-0Xz" firstAttribute="top" secondItem="47X-Hm-1HQ" secondAttribute="bottom" constant="20" id="021-ry-uvR"/>
+                            <constraint firstItem="7Nq-Rg-T0l" firstAttribute="trailing" secondItem="8mn-hz-0Xz" secondAttribute="trailing" id="SNf-0w-uos"/>
+                            <constraint firstItem="7Nq-Rg-T0l" firstAttribute="bottom" secondItem="8mn-hz-0Xz" secondAttribute="bottom" id="T6T-Aw-Xyc"/>
+                            <constraint firstItem="47X-Hm-1HQ" firstAttribute="centerX" secondItem="p6y-PK-5AE" secondAttribute="centerX" id="bru-Gm-TnE"/>
+                            <constraint firstItem="47X-Hm-1HQ" firstAttribute="top" secondItem="7Nq-Rg-T0l" secondAttribute="top" id="iQF-Zr-Vo1"/>
+                            <constraint firstItem="8mn-hz-0Xz" firstAttribute="leading" secondItem="7Nq-Rg-T0l" secondAttribute="leading" id="jTX-d8-fJC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jny-yX-u7y"/>
+                    <connections>
+                        <outlet property="imageCode" destination="YSG-3f-L2I" id="45o-YV-Hvy"/>
+                        <outlet property="imageUML" destination="47X-Hm-1HQ" id="Wuo-x4-24A"/>
+                        <outlet property="scrollView" destination="8mn-hz-0Xz" id="PQ6-8j-cfC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJo-6B-RQF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="361" y="-11"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <image name="photo.artframe" catalog="system" width="128" height="93"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

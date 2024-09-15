@@ -68,6 +68,17 @@ class CoordinatorPatter {
         }
     }
     
+    func navigationIncrementView(fatherVC: UIViewController, nameUML: String, nameCode: String) {
+        let storyboard = CommunViewsFactory.buildStoryBoard(view: .IncrementView)
+        let identifierVC = CommunViewsFactory.vcNamesCreation(nameVC: .IncrementViewController)
+        let vcProb = storyboard.instantiateViewController(withIdentifier: identifierVC)
+        if let vcProb = storyboard.instantiateViewController(withIdentifier: identifierVC) as? IncrementViewController {
+            vcProb.nameUML = nameUML
+            vcProb.nameCode = nameCode
+            pushViewControllerForPattern(vc: vcProb, IncrementViewController.self, fathervc: fatherVC)
+        }
+    }
+    
     func pushViewControllerForPattern<T: UIViewController>(vc: UIViewController, _ vcType: T.Type, fathervc: UIViewController) {
             if let destinationVC = vc as? T {
                 fathervc.navigationController?.pushViewController(destinationVC, animated: true)

@@ -49,5 +49,20 @@ enum AllPatterType: String {
     case Strategy = "Strategy"
     case TemplateMethod = "TemplateMethod"
     case Visitor = "Visitor"
+}
+
+enum CommunViewsSB: String {
+    case IncrementView = "IncrementViewSB"
+}
+
+enum CommunViewController: String {
+    case IncrementViewController = "IncrementViewController"
+}
+
+enum Img {
+    enum FactoyMethod: String {
+        case imgUML = "FactoryMethod"
+        case imgCode = "factory Method codigo"
+    }
     
 }
