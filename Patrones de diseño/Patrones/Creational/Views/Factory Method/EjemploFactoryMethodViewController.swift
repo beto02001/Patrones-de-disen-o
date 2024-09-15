@@ -17,7 +17,6 @@ class EjemploFactoryMethodViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
@@ -63,5 +62,9 @@ class EjemploFactoryMethodViewController: UIViewController {
             enemySelected = nil
             enemy.image = UIImage(systemName: "nosign")
         }
+    }
+    
+    @IBAction func goToCodeView(_ sender: Any) {
+        CoordinatorPatter.shared.navigationIncrementView(fatherVC: self, nameUML: Img.FactoyMethod.imgUML.rawValue, nameCode: Img.FactoyMethod.imgCode.rawValue)
     }
 }

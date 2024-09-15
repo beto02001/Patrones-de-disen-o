@@ -61,6 +61,9 @@
 		9EBF18FA2AF2E34A0014547E /* Flywight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBF18F92AF2E34A0014547E /* Flywight.storyboard */; };
 		9EBF18FC2AF2E35E0014547E /* Proxy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBF18FB2AF2E35E0014547E /* Proxy.storyboard */; };
 		9EBF18FE2AF2E3650014547E /* ProxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBF18FD2AF2E3650014547E /* ProxyViewController.swift */; };
+		9EC5B4152C881214008B06F2 /* IncrementViewSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5B4142C881214008B06F2 /* IncrementViewSB.storyboard */; };
+		9EC5B4172C881279008B06F2 /* IncrementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5B4162C881279008B06F2 /* IncrementViewController.swift */; };
+		9EC5B4192C881919008B06F2 /* CommunViewsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5B4182C881919008B06F2 /* CommunViewsFactory.swift */; };
 		9EC633F32AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633F22AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift */; };
 		9EC633F52AF98E6100F942E8 /* EjemploFactoryMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633F42AF98E6100F942E8 /* EjemploFactoryMethodViewController.swift */; };
 		9EC633F82AF9917B00F942E8 /* FactoryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC633F72AF9917B00F942E8 /* FactoryProduct.swift */; };
@@ -140,6 +143,9 @@
 		9EBF18F92AF2E34A0014547E /* Flywight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Flywight.storyboard; sourceTree = "<group>"; };
 		9EBF18FB2AF2E35E0014547E /* Proxy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Proxy.storyboard; sourceTree = "<group>"; };
 		9EBF18FD2AF2E3650014547E /* ProxyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyViewController.swift; sourceTree = "<group>"; };
+		9EC5B4142C881214008B06F2 /* IncrementViewSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IncrementViewSB.storyboard; sourceTree = "<group>"; };
+		9EC5B4162C881279008B06F2 /* IncrementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementViewController.swift; sourceTree = "<group>"; };
+		9EC5B4182C881919008B06F2 /* CommunViewsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunViewsFactory.swift; sourceTree = "<group>"; };
 		9EC633F22AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCodeFactoryMethodViewController.swift; sourceTree = "<group>"; };
 		9EC633F42AF98E6100F942E8 /* EjemploFactoryMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploFactoryMethodViewController.swift; sourceTree = "<group>"; };
 		9EC633F72AF9917B00F942E8 /* FactoryProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProduct.swift; sourceTree = "<group>"; };
@@ -337,6 +343,8 @@
 				9E36C6042AF5F43A0056A4B2 /* Comportamiento */,
 				9EBF18D42AF2A9F90014547E /* Estructural */,
 				9E5CE3102ABC07FC00425AFD /* Creational */,
+				9EC5B4142C881214008B06F2 /* IncrementViewSB.storyboard */,
+				9EC5B4162C881279008B06F2 /* IncrementViewController.swift */,
 			);
 			path = Patrones;
 			sourceTree = "<group>";
@@ -567,6 +575,7 @@
 				9E0259182AE98A89004240E8 /* PatternDesingCreational.swift */,
 				9ECB06E72ABC1459000BA354 /* CardUIView.swift */,
 				9E36C6412AF5FCAC0056A4B2 /* CoordinatorPatter.swift */,
+				9EC5B4182C881919008B06F2 /* CommunViewsFactory.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -666,6 +675,7 @@
 				9E36C62C2AF5FA1B0056A4B2 /* State.storyboard in Resources */,
 				9EBF18FC2AF2E35E0014547E /* Proxy.storyboard in Resources */,
 				9E36C62F2AF5FA320056A4B2 /* Observer.storyboard in Resources */,
+				9EC5B4152C881214008B06F2 /* IncrementViewSB.storyboard in Resources */,
 				9EBF18E32AF2D04E0014547E /* Adapter.storyboard in Resources */,
 				9EBF18FA2AF2E34A0014547E /* Flywight.storyboard in Resources */,
 				9EBF18EA2AF2E1E30014547E /* Bridge.storyboard in Resources */,
@@ -699,6 +709,7 @@
 				9EC634032AF9923F00F942E8 /* SelectEnemyFactory.swift in Sources */,
 				9EC634002AF991F300F942E8 /* CreatorFactory.swift in Sources */,
 				9EBF18D32AF22F430014547E /* ModelEstructural.swift in Sources */,
+				9EC5B4172C881279008B06F2 /* IncrementViewController.swift in Sources */,
 				9EBF18E82AF2E1C10014547E /* BridgeViewController.swift in Sources */,
 				9EC633FD2AF991AB00F942E8 /* Gohan.swift in Sources */,
 				9EC633F82AF9917B00F942E8 /* FactoryProduct.swift in Sources */,
@@ -726,6 +737,7 @@
 				9EBF18EE2AF2E25D0014547E /* CompositeViewController.swift in Sources */,
 				9EC633F32AF93F4900F942E8 /* ShowCodeFactoryMethodViewController.swift in Sources */,
 				9EBF18F62AF2E3310014547E /* FacadeViewController.swift in Sources */,
+				9EC5B4192C881919008B06F2 /* CommunViewsFactory.swift in Sources */,
 				9EBF18F82AF2E3430014547E /* FlywightViewController.swift in Sources */,
 				9E36C63B2AF5FAA10056A4B2 /* MediatorViewController.swift in Sources */,
 				9E36C6162AF5F9290056A4B2 /* InterpreterViewController.swift in Sources */,
